@@ -2,7 +2,7 @@
 
 1. create a valgrind trace file (example file included):
     
-    linux> valgrind --log-fd=1 --tool=lackey -v --trace-mem=yes <YourCommandHere> > <filename>
+    linux> valgrind --log-fd=1 --tool=lackey -v --trace-mem=yes YourCommandHere > Filename
 
 2. Compile and link:
 
